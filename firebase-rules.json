@@ -1,0 +1,29 @@
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null",
+    "alerts": {
+      ".read": "auth != null",
+      ".write": "auth != null",
+      "$alertId": {
+        ".validate": "newData.hasChildren(['farmerId', 'lat', 'lng', 'timestamp'])"
+      }
+    },
+    "hives": {
+      ".read": "auth != null",
+      "$userId": {
+        ".read": "$userId === auth.uid",
+        ".write": "$userId === auth.uid",
+        "$hiveId": {
+          ".validate": "newData.hasChildren(['lat', 'lng', 'ownerId'])"
+        }
+      }
+    },
+    "health_logs": {
+      "$userId": {
+        ".read": "$userId === auth.uid",
+        ".write": "$userId === auth.uid"
+      }
+    }
+  }
+}
