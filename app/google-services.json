@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "379047854844",
+    "project_id": "my-shittt",
+    "storage_bucket": "my-shittt.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:379047854844:android:0dae80487752e8943dcd79",
+        "android_client_info": {
+          "package_name": "com.madhusiri.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDCwu2fD_S7jWkOqB6kMjFPgvj4msMMT6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

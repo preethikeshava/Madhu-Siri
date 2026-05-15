@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_beekeeper_dashboard">
+
+    <fragment
+        android:id="@+id/navigation_farmer_dashboard"
+        android:name="com.madhusiri.app.ui.farmer.FarmerDashboardFragment"
+        android:label="@string/dashboard_farmer_panel"
+        tools:layout="@layout/fragment_farmer_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_beekeeper_dashboard"
+        android:name="com.madhusiri.app.ui.beekeeper.BeekeeperDashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_beekeeper_dashboard" />
+
+    <fragment
+        android:id="@+id/navigation_map"
+        android:name="com.madhusiri.app.ui.MapFragment"
+        android:label="@string/title_map"
+        tools:layout="@layout/fragment_map" />
+
+    <fragment
+        android:id="@+id/navigation_diary"
+        android:name="com.madhusiri.app.ui.DiaryFragment"
+        android:label="@string/title_diary"
+        tools:layout="@layout/fragment_diary" />
+
+    <fragment
+        android:id="@+id/navigation_assistant"
+        android:name="com.madhusiri.app.ui.assistant.AssistantFragment"
+        android:label="Assistant"
+        tools:layout="@layout/fragment_assistant" />
+</navigation>

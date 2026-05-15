@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_bottom_sheet"
+    android:paddingHorizontal="24dp"
+    android:paddingTop="12dp"
+    android:paddingBottom="32dp">
+
+    <!-- Bottom sheet drag handle indicator -->
+    <View
+        android:id="@+id/drag_handle"
+        android:layout_width="40dp"
+        android:layout_height="4dp"
+        android:background="?attr/colorOutlineVariant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:id="@+id/text_dialog_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:text="@string/new_health_log"
+        android:textAppearance="?attr/textAppearanceHeadlineMedium"
+        android:textColor="?attr/colorOnSurface"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/drag_handle" />
+
+    <!-- Honey Harvest Extraction Yield Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_honey"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/honey_production_hint"
+        app:boxCornerRadiusTopStart="16dp"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxCornerRadiusBottomEnd="16dp"
+        app:suffixText="kg"
+        app:suffixTextColor="@color/honey_gold"
+        app:layout_constraintTop_toBottomOf="@id/text_dialog_title">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_honey"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            android:textColor="?attr/colorOnSurface" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Interactive Hive Health Evaluation Slider -->
+    <LinearLayout
+        android:id="@+id/layout_health_slider"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        app:layout_constraintTop_toBottomOf="@id/input_layout_honey">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Colony Health Indicator"
+                android:textAppearance="?attr/textAppearanceTitleMedium"
+                android:textColor="?attr/colorOnSurface"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_slider_score_label"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="5/10"
+                android:textAppearance="?attr/textAppearanceLabelLarge"
+                android:textColor="@color/status_active"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <com.google.android.material.slider.Slider
+            android:id="@+id/slider_health"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:valueFrom="1.0"
+            android:valueTo="10.0"
+            android:value="5.0"
+            android:stepSize="1.0"
+            app:thumbColor="@color/status_active"
+            app:trackColorActive="#4000C853"
+            app:trackColorInactive="?attr/colorSurfaceVariant" />
+    </LinearLayout>
+
+    <!-- Inspection Notes Input Field -->
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/input_layout_notes"
+        style="@style/Widget.Material3.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:hint="@string/notes_hint"
+        app:boxCornerRadiusTopStart="16dp"
+        app:boxCornerRadiusTopEnd="16dp"
+        app:boxCornerRadiusBottomStart="16dp"
+        app:boxCornerRadiusBottomEnd="16dp"
+        app:layout_constraintTop_toBottomOf="@id/layout_health_slider">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/input_notes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:lines="3"
+            android:gravity="top|start"
+            android:textAppearance="?attr/textAppearanceBodyLarge"
+            android:textColor="?attr/colorOnSurface" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!-- Primary Modal Save Commit CTA -->
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btn_save_log"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_marginTop="28dp"
+        android:text="Commit Log Entry"
+        android:textColor="#1A0F00"
+        android:textStyle="bold"
+        app:backgroundTint="@color/honey_gold"
+        app:cornerRadius="16dp"
+        app:strokeWidth="0dp"
+        app:layout_constraintTop_toBottomOf="@id/input_layout_notes" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

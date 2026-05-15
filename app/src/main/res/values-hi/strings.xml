@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Madhu-Siri</string>
+    <string name="title_dashboard">डैशबोर्ड</string>
+    <string name="title_map">नक्शा</string>
+    <string name="title_diary">स्वास्थ्य डायरी</string>
+    <string name="title_assistant">AI सहायक</string>
+    <string name="save">सहेजें</string>
+    <string name="cancel">रद्द करें</string>
+    <string name="log_saved_offline">लॉग ऑफ़लाइन सहेजा गया</string>
+    <string name="average_health_score_format">औसत स्वास्थ्य स्कोर: %.2f</string>
+    <string name="new_health_log">नया स्वास्थ्य लॉग</string>
+    <string name="honey_production_hint">शहद उत्पादन</string>
+    <string name="health_score_label">स्वास्थ्य स्कोर (1-10)</string>
+    <string name="notes_hint">निरीक्षण टिप्पणियाँ (वैकल्पिक)</string>
+    <string name="change_role">भूमिका बदलें</string>
+    <string name="welcome_title">Madhu-Siri में आपका स्वागत है</string>
+    <string name="select_role_subtitle">जारी रखने के लिए कृपया अपनी भूमिका चुनें</string>
+    <string name="role_farmer">मैं एक किसान हूँ</string>
+    <string name="role_beekeeper">मैं एक मधुमक्खी पालक हूँ</string>
+
+    <string name="map_instruction">अपने छत्ते के स्थान को पिन करने के लिए नक्शे पर देर तक दबाएं</string>
+    <string name="map_save_location">स्थान सहेजें</string>
+    <string name="map_hive_location_saved">छत्ते का स्थान सफलतापूर्वक सहेजा गया!</string>
+    <string name="map_new_hive_location">नया छत्ता स्थान</string>
+    <string name="map_your_hive_location">आपका छत्ता स्थान</string>
+
+    <string name="dashboard_farmer_panel">किसान नियंत्रण कक्ष</string>
+    <string name="dashboard_current_profile">वर्तमान प्रोफ़ाइल</string>
+    <string name="dashboard_farmer">किसान</string>
+    <string name="dashboard_switch_role">भूमिका बदलें</string>
+    <string name="dashboard_broadcast">कीटनाशक चेतावनी प्रसारित करें</string>
+    <string name="dashboard_spraying_alert">आस-पास के छत्तों को 2 किमी के दायरे में तुरंत सुरक्षित करें</string>
+    <string name="dashboard_nearby_hives">आस-पास के छत्तों की स्थिति</string>
+    <string name="dashboard_beekeepers_notified">छत्ते\nस्कैन किए गए</string>
+    <string name="dashboard_beekeeper_urgent">गंभीर\nअलर्ट</string>
+    <string name="dashboard_fcm_trigger_desc">2 किमी के दायरे में आपातकालीन FCM पुश अलर्ट भेजता है</string>
+    <string name="dashboard_avg_health">औसत छत्ता स्वास्थ्य</string>
+    <string name="dashboard_alert_broadcasted">कीटनाशक छिड़काव की चेतावनी आस-पास के छत्तों को भेज दी गई है!</string>
+    <string name="dashboard_alert_deactivated">चेतावनी प्रसारण रोक दिया गया</string>
+
+    <string name="onboarding_subtitle">किसानों और मधुमक्खी पालकों को बेहतर तालमेल के लिए जोड़ना</string>
+    <string name="onboarding_choose_role">अपनी यात्रा चुनें</string>
+    <string name="onboarding_select_role_desc">मैपिंग सुविधाओं को अनुकूलित करने के लिए अपनी प्रोफ़ाइल चुनें</string>
+    <string name="onboarding_secure_auth">एन्क्रिप्टेड प्रमाणीकरण</string>
+    <string name="onboarding_fcm_alerts">रीयल-टाइम आपातकालीन सुरक्षा अलर्ट</string>
+</resources>

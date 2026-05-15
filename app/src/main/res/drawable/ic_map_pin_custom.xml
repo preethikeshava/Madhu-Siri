@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="48dp"
+    android:viewportWidth="36"
+    android:viewportHeight="48">
+    
+    <!-- Outer accent glowing path backing -->
+    <path
+        android:fillColor="#33FFFFFF"
+        android:pathData="M18,0C9.7,0 3,6.7 3,15c0,11.25 15,33 15,33s15,-21.75 15,-33C33,6.7 26.3,0 18,0z"/>
+        
+    <!-- Main structural marker frame solid drop -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M18,2C10.8,2 5,7.8 5,15c0,9.5 13,29 13,29s13,-19.5 13,-29C31,7.8 25.2,2 18,2z"/>
+        
+    <!-- Inner Core dynamically colored hole target -->
+    <path
+        android:fillColor="#000000"
+        android:pathData="M18,9c-3.3,0 -6,2.7 -6,6s2.7,6 6,6 6,-2.7 6,-6 -2.7,-6 -6,-6z"/>
+</vector>

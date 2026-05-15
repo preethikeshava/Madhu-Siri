@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Premium Honey & Nature gradient header — diagonal warm amber to deep forest -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <gradient
+        android:angle="135"
+        android:startColor="#E59300"
+        android:centerColor="#C47B00"
+        android:endColor="#1A4D1E"
+        android:type="linear" />
+    <corners
+        android:bottomLeftRadius="32dp"
+        android:bottomRightRadius="32dp" />
+</shape>

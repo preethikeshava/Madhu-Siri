@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Extra Small: 4dp — for status indicators, tiny elements -->
+    <style name="ShapeAppearance.MadhuSiri.ExtraSmall" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">4dp</item>
+    </style>
+
+    <!-- Small: 12dp — for chips, tags, small buttons -->
+    <style name="ShapeAppearance.MadhuSiri.Small" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <!-- Medium: 16dp — for cards, dialogs, text fields -->
+    <style name="ShapeAppearance.MadhuSiri.Medium" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+
+    <!-- Large: 24dp — for hero cards, sheets, dashboards -->
+    <style name="ShapeAppearance.MadhuSiri.Large" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">24dp</item>
+    </style>
+
+    <!-- Extra Large: 28dp — for floating cards, prominent surfaces -->
+    <style name="ShapeAppearance.MadhuSiri.ExtraLarge" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">28dp</item>
+    </style>
+
+    <!-- Full: Pill shape — for FABs, status pills, toggle buttons -->
+    <style name="ShapeAppearance.MadhuSiri.Full" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <!-- Bottom Sheet: Top corners only rounded — for bottom sheets -->
+    <style name="ShapeAppearance.MadhuSiri.BottomSheet" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">28dp</item>
+        <item name="cornerSizeTopRight">28dp</item>
+        <item name="cornerSizeBottomLeft">0dp</item>
+        <item name="cornerSizeBottomRight">0dp</item>
+    </style>
+</resources>

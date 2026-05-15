@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Farmer role card — honey gold gradient border -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Border gradient layer -->
+    <item>
+        <shape>
+            <gradient
+                android:angle="135"
+                android:startColor="#FFB800"
+                android:endColor="#E59300"
+                android:type="linear" />
+            <corners android:radius="22dp" />
+        </shape>
+    </item>
+    <!-- Inner fill -->
+    <item
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp">
+        <shape>
+            <solid android:color="?attr/colorSurfaceContainerHigh" />
+            <corners android:radius="20dp" />
+        </shape>
+    </item>
+</layer-list>

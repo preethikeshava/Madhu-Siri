@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ಮಧು-ಸಿರಿ</string>
+    <string name="title_dashboard">ಡ್ಯಾಶ್‌ಬೋರ್ಡ್</string>
+    <string name="title_map">ನಕ್ಷೆ</string>
+    <string name="title_diary">ಆರೋಗ್ಯ ಡೈರಿ</string>
+    <string name="save">ಉಳಿಸಿ</string>
+    <string name="cancel">ರದ್ದುಮಾಡಿ</string>
+    <string name="log_saved_offline">ಲಾಗ್ ಆಫ್‌ಲೈನ್‌ನಲ್ಲಿ ಉಳಿಸಲಾಗಿದೆ</string>
+    <string name="average_health_score_format">ಸರಾಸರಿ ಆರೋಗ್ಯ ಸ್ಕೋರ್: %.2f</string>
+    <string name="new_health_log">ಹೊಸ ಆರೋಗ್ಯ ಲಾಗ್</string>
+    <string name="honey_production_hint">ಜೇನು ಉತ್ಪಾದನೆ (ಕೆಜಿ)</string>
+    <string name="health_score_label">ಆರೋಗ್ಯ ಸ್ಕೋರ್ (1-10)</string>
+    <string name="notes_hint">ಟಿಪ್ಪಣಿಗಳು (ಐಚ್ಛಿಕ)</string>
+    <string name="change_role">ಪಾತ್ರವನ್ನು ಬದಲಾಯಿಸಿ</string>
+    <string name="welcome_title">ಮಧು-ಸಿರಿಗೆ ಸ್ವಾಗತ</string>
+    <string name="select_role_subtitle">ಮುಂದುವರಿಯಲು ದಯವಿಟ್ಟು ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಆರಿಸಿ</string>
+    <string name="role_farmer">ನಾನು ರೈತ</string>
+    <string name="role_beekeeper">ನಾನು ಜೇನುಸಾಕಣೆದಾರ</string>
+
+    <string name="map_instruction">ನಿಮ್ಮ ಜೇನುಗೂಡಿನ ಸ್ಥಳವನ್ನು ಪಿನ್ ಮಾಡಲು ನಕ್ಷೆಯನ್ನು ದೀರ್ಘಕಾಲ ಒತ್ತಿರಿ</string>
+    <string name="map_save_location">ಸ್ಥಳವನ್ನು ಉಳಿಸಿ</string>
+    <string name="map_hive_location_saved">ಜೇನುಗೂಡಿನ ಸ್ಥಳವನ್ನು ಯಶಸ್ವಿಯಾಗಿ ಉಳಿಸಲಾಗಿದೆ!</string>
+    <string name="map_new_hive_location">ಹೊಸ ಜೇನುಗೂಡಿನ ಸ್ಥಳ</string>
+    <string name="map_your_hive_location">ನಿಮ್ಮ ಜೇನುಗೂಡಿನ ಸ್ಥಳ</string>
+
+    <string name="dashboard_farmer_panel">ರೈತ ನಿಯಂತ್ರಣ ಫಲಕ</string>
+    <string name="dashboard_current_profile">ಪ್ರಸ್ತುತ ಪ್ರೊಫೈಲ್</string>
+    <string name="dashboard_farmer">ರೈತ</string>
+    <string name="dashboard_switch_role">ಪಾತ್ರ ಬದಲಾಯಿಸಿ</string>
+    <string name="dashboard_broadcast">ಪ್ರಸಾರ</string>
+    <string name="dashboard_spraying_alert">ಸಿಂಪರಣೆ ಎಚ್ಚರಿಕೆ</string>
+    <string name="dashboard_nearby_hives">ಹತ್ತಿರದ ಜೇನುಗೂಡುಗಳ ಸಾರಾಂಶ</string>
+    <string name="dashboard_beekeepers_notified">ಜೇನುಸಾಕಣೆದಾರರಿಗೆ\nತಿಳಿಸಲಾಗಿದೆ</string>
+    <string name="dashboard_beekeeper_urgent">ಜೇನುಸಾಕಣೆದಾರರು\nತುರ್ತು</string>
+    <string name="dashboard_fcm_trigger_desc">ಹೆಚ್ಚಿನ ಆದ್ಯತೆಯ FCM ಪುಶ್ ಅಧಿಸೂಚನೆಗಳನ್ನು ಪ್ರಚೋದಿಸುತ್ತದೆ</string>
+    <string name="dashboard_avg_health">ಸರಾಸರಿ ಜೇನುಗೂಡಿನ ಆರೋಗ್ಯ</string>
+    <string name="dashboard_alert_broadcasted">ಸಿಂಪರಣೆ ಎಚ್ಚರಿಕೆಯನ್ನು ಪ್ರಸಾರ ಮಾಡಲಾಗಿದೆ!</string>
+    <string name="dashboard_alert_deactivated">ಎಚ್ಚರಿಕೆಯನ್ನು ನಿಷ್ಕ್ರಿಯಗೊಳಿಸಲಾಗಿದೆ</string>
+
+    <string name="onboarding_subtitle">ಜೇನುಗೂಡುಗಳು ಮತ್ತು ಸುಗ್ಗಿಯನ್ನು ಸಂಪರ್ಕಿಸಲಾಗುತ್ತಿದೆ</string>
+    <string name="onboarding_choose_role">ನಿಮ್ಮ ಪಾತ್ರವನ್ನು ಆರಿಸಿ</string>
+    <string name="onboarding_select_role_desc">ನೀವು ಪ್ಲಾಟ್‌ಫಾರ್ಮ್ ಅನ್ನು ಹೇಗೆ ಬಳಸುತ್ತೀರಿ ಎಂಬುದನ್ನು ಆಯ್ಕೆಮಾಡಿ</string>
+    <string name="onboarding_secure_auth">ಸುರಕ್ಷಿತ ದೃಢೀಕರಣ</string>
+    <string name="onboarding_fcm_alerts">FCM ಅಧಿಸೂಚನೆಗಳು</string>
+</resources>

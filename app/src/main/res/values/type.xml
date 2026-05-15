@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- ============================================================ -->
+    <!--  Madhu-Siri Typography Scale — MD3 Complete                  -->
+    <!--  Font: sans-serif (system) with weight tuning               -->
+    <!-- ============================================================ -->
+
+    <!-- Display Scale -->
+    <style name="TextAppearance.MadhuSiri.DisplayLarge" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">40sp</item>
+        <item name="android:letterSpacing">-0.02</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.MadhuSiri.DisplayMedium" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <!-- Headline Scale -->
+    <style name="TextAppearance.MadhuSiri.HeadlineLarge" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:letterSpacing">-0.01</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.MadhuSiri.HeadlineMedium" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.MadhuSiri.HeadlineSmall" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <!-- Title Scale -->
+    <style name="TextAppearance.MadhuSiri.TitleLarge" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.MadhuSiri.TitleMedium" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:letterSpacing">0.009</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.MadhuSiri.TitleSmall" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.007</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <!-- Body Scale -->
+    <style name="TextAppearance.MadhuSiri.BodyLarge" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight">24sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="TextAppearance.MadhuSiri.BodyMedium" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineHeight">20sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <style name="TextAppearance.MadhuSiri.BodySmall" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineHeight">16sp</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+
+    <!-- Label Scale -->
+    <style name="TextAppearance.MadhuSiri.LabelLarge" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:letterSpacing">0.007</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.MadhuSiri.LabelMedium" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">sans-serif-medium</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:letterSpacing">0.005</item>
+        <item name="android:textColor">?attr/colorOnSurface</item>
+    </style>
+
+    <style name="TextAppearance.MadhuSiri.LabelSmall" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">sans-serif</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:letterSpacing">0.004</item>
+        <item name="android:textColor">?attr/colorOnSurfaceVariant</item>
+    </style>
+</resources>

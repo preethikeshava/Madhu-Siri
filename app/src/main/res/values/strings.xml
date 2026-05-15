@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">Madhu-Siri</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_map">Map</string>
+    <string name="title_diary">Health Diary</string>
+    <string name="title_assistant">AI Assistant</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="log_saved_offline">Log saved offline</string>
+    <string name="average_health_score_format">Average Health Score: %.2f</string>
+    <string name="new_health_log">New Health Log</string>
+    <string name="honey_production_hint">Honey Production</string>
+    <string name="health_score_label">Health Score (1-10)</string>
+    <string name="notes_hint">Inspection Notes (Optional)</string>
+    <string name="change_role">Change Role</string>
+    <string name="welcome_title">Welcome to Madhu-Siri</string>
+    <string name="select_role_subtitle">Please select your role to continue</string>
+    <string name="role_farmer">I am a Farmer</string>
+    <string name="role_beekeeper">I am a Beekeeper</string>
+
+    <!-- Map Strings -->
+    <string name="map_instruction">Long press on the map to pin your hive location</string>
+    <string name="map_save_location">Save Location</string>
+    <string name="map_hive_location_saved">Hive location saved successfully!</string>
+    <string name="map_new_hive_location">New Hive Location</string>
+    <string name="map_your_hive_location">Your Hive Location</string>
+
+    <!-- Dashboard Strings -->
+    <string name="dashboard_farmer_panel">Farmer Control Panel</string>
+    <string name="dashboard_current_profile">Current Profile</string>
+    <string name="dashboard_farmer">Farmer</string>
+    <string name="dashboard_switch_role">Switch Role</string>
+    <string name="dashboard_broadcast">Broadcast Spray Alert</string>
+    <string name="dashboard_spraying_alert">Trigger immediate regional safe radius notification updates</string>
+    <string name="dashboard_nearby_hives">Nearby Colony Summary</string>
+    <string name="dashboard_beekeepers_notified">Colonies\nScanned</string>
+    <string name="dashboard_beekeeper_urgent">Critical\nAlerts</string>
+    <string name="dashboard_fcm_trigger_desc">Triggers emergency 2km radius FCM push notifications</string>
+    <string name="dashboard_avg_health">Avg. Hive Health</string>
+    <string name="dashboard_alert_broadcasted">Pesticide Spraying Alert Broadcasted Directly to Nearby Hives!</string>
+    <string name="dashboard_alert_deactivated">Alert Transmission Silenced</string>
+
+    <!-- Onboarding Strings -->
+    <string name="onboarding_subtitle">Connecting Beekeepers and Farmers for Better Coexistence</string>
+    <string name="onboarding_choose_role">Choose Your Journey</string>
+    <string name="onboarding_select_role_desc">Select your profile to optimize mapping features</string>
+    <string name="onboarding_secure_auth">Encrypted Authentication</string>
+    <string name="onboarding_fcm_alerts">Real-time Emergency Radius Triggers</string>
+</resources>
