@@ -333,23 +333,3 @@ copies or substantial portions of the Software.
 ```
 
 ---
-
-## 👥 Team
-
-| Name | Role |
-|---|---|
-| **Sujith** | Lead Developer & Architect |
-| **Madhu-Siri Team** | Android Development |
-
----
-
-## 📬 Contact
-
-- **GitHub**: [Sujith2391/Madhu-Siri](https://github.com/Sujith2391/Madhu-Siri)
-- **Issues**: [Open an Issue](https://github.com/Sujith2391/Madhu-Siri/issues)
-
----
-
-<p align="center">
-  Made with ❤️ for India's farming and beekeeping communities
-</p>
